@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Pickle Rating project illustration</title>
+  <rect width="512" height="512" rx="112" fill="#1b2a4a"/>
+  <circle cx="256" cy="242" r="166" fill="#263b62"/>
+  <g transform="rotate(-28 244 258)">
+    <rect x="222" y="305" width="44" height="108" rx="19" fill="#e8b571"/>
+    <rect x="226" y="352" width="36" height="52" rx="15" fill="#17243e"/>
+    <ellipse cx="244" cy="219" rx="101" ry="122" fill="#d7ff45"/>
+    <ellipse cx="244" cy="219" rx="85" ry="106" fill="#1b2a4a"/>
+    <g fill="#d7ff45">
+      <circle cx="216" cy="170" r="8"/><circle cx="254" cy="157" r="8"/><circle cx="290" cy="178" r="8"/>
+      <circle cx="199" cy="210" r="8"/><circle cx="240" cy="204" r="8"/><circle cx="280" cy="218" r="8"/>
+      <circle cx="207" cy="251" r="8"/><circle cx="250" cy="249" r="8"/><circle cx="287" cy="258" r="8"/>
+      <circle cx="227" cy="287" r="8"/><circle cx="267" cy="291" r="8"/>
+    </g>
+  </g>
+  <circle cx="372" cy="157" r="43" fill="#eaf5c4"/>
+  <circle cx="358" cy="147" r="6" fill="#a9bf68"/><circle cx="384" cy="141" r="6" fill="#a9bf68"/>
+  <circle cx="370" cy="170" r="6" fill="#a9bf68"/><circle cx="392" cy="168" r="6" fill="#a9bf68"/>
+</svg>

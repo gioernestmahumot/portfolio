@@ -40,13 +40,15 @@ const projects = [
     status: "Live Site"
   },
   {
-    title: "Kailangan Ko",
+    title: "Pickle Rating",
     description:
-      "Kailangan Ko is a Laravel-based web application and REST API designed to help users in the Philippines understand government-service requirements, procedures, fees, offices, and official sources in one centralized platform.",
-    tags: ["Laravel 13", "PHP", "MySQL", "Redis", "Docker", "Nginx", "REST API", "Blade", "Vite", "PHPUnit"],
+      "Pickle Rating is a Philippine pickleball rankings app powered by confirmed singles and doubles matches. It features player profiles, regional leaderboards, club ratings, tournament brackets, and QR check-in.",
+    tags: ["Next.js 16", "React 19", "TypeScript", "Supabase", "PostgreSQL"],
     number: "02",
     url: "",
-    image: "/projects/icon-192.png",
+    image: "/projects/pickle-rating.svg",
+    isLogo: true,
+    imageBackground: "bg-[#1b2a4a]",
     status: "In development"
   },
   {
