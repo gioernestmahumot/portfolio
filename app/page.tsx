@@ -34,7 +34,9 @@ const projects = [
     tags: ["Next.js 16", "React 19", "Supabase", "PostgreSQL", "IndexedDB", "PWA / Service Worker"],
     number: "01",
     url: "https://paddyverse.vercel.app/",
-    image: "/projects/rice_pos.svg",
+    image: "/projects/paddyverse.svg",
+    isLogo: true,
+    imageBackground: "bg-[#153C2B]",
     status: "Live Site"
   },
   {
@@ -121,7 +123,7 @@ export default function Home() {
                     </span>
                   )}
                 </div>
-                <div className={`relative my-5 mb-7 aspect-[16/10] overflow-hidden rounded-2xl border border-white/10 ${project.isLogo ? "bg-white" : "bg-[#0f0f10]"}`}>
+                <div className={`relative my-5 mb-7 aspect-[16/10] overflow-hidden rounded-2xl border border-white/10 ${project.imageBackground ?? (project.isLogo ? "bg-white" : "bg-[#0f0f10]")}`}>
                   {project.image ? (
                     <Image
                       src={project.image}
