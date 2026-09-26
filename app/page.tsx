@@ -45,11 +45,11 @@ const projects = [
       "Pickle Rating is a Philippine pickleball rankings app powered by confirmed singles and doubles matches. It features player profiles, regional leaderboards, club ratings, tournament brackets, and QR check-in.",
     tags: ["Next.js 16", "React 19", "TypeScript", "Supabase", "PostgreSQL"],
     number: "02",
-    url: "",
+    url: "https://pickle-rating.vercel.app/",
     image: "/projects/pickle-rating.svg",
     isLogo: true,
     imageBackground: "bg-[#1b2a4a]",
-    status: "In development"
+    status: "Live Site"
   },
   {
     title: "Nativecamp",
