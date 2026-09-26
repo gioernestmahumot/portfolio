@@ -28,10 +28,10 @@ const stack = [
 
 const projects = [
   {
-    title: "Rice Store POS & Inventory",
+    title: "Paddyverse",
     description:
-      "Rice POS is a responsive, offline-first point-of-sale and inventory management application designed for rice stores. Built with Dexie.js and IndexedDB, the system allows store operations to continue even without an internet connection, with all transactions and records stored locally.",
-    tags: ["HTML", "CSS", "Vanilla JavaScript", "IndexedDB / Dexie.js", "PWA", "Browser Print API / CSS Print Media"],
+      "Paddyverse is a local-first sales and inventory app for rice stores. Sales, purchases, stock changes, and deliveries work offline and sync to Supabase when connected. It also tracks customer credit, supplier balances, cash counts, and profit, with role-based accounts and exportable reports.",
+    tags: ["Next.js 16", "React 19", "Supabase", "PostgreSQL", "IndexedDB", "PWA / Service Worker"],
     number: "01",
     url: "https://paddyverse.vercel.app/",
     image: "/projects/rice_pos.svg",
