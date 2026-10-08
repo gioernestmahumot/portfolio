@@ -52,23 +52,11 @@ const projects = [
     status: "Live Site"
   },
   {
-    title: "Pickle Rating",
-    description:
-      "Pickle Rating is a Philippine pickleball rankings app powered by confirmed singles and doubles matches. It features player profiles, regional leaderboards, club ratings, tournament brackets, and QR check-in.",
-    tags: ["Next.js 16", "React 19", "TypeScript", "Supabase", "PostgreSQL"],
-    number: "03",
-    url: "https://pickle-rating.vercel.app/",
-    image: "/projects/pickle-rating.svg",
-    isLogo: true,
-    imageBackground: "bg-[#1b2a4a]",
-    status: "In Development"
-  },
-  {
     title: "Nativecamp",
     description:
       "Native Camp is one of the best ESL online tutoring schools in Japan. Lessons are provided via a unique language platform developed by our company.",
     tags: ["Laravel", "MySQL", "Redis", "JavaScript"],
-    number: "04",
+    number: "03",
     url: "https://nativecamp.net",
     image: "/projects/nativecamp.png",
     isLogo: true,
