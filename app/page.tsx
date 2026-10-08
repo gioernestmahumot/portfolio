@@ -28,15 +28,27 @@ const stack = [
 
 const projects = [
   {
-    title: "Paddyverse",
+    title: "Paddy",
     description:
-      "Paddyverse is a local-first sales and inventory app for rice stores. Sales, purchases, stock changes, and deliveries work offline and sync to Supabase when connected. It also tracks customer credit, supplier balances, cash counts, and profit, with role-based accounts and exportable reports.",
+      "Paddy is a local-first sales and inventory app for rice stores. Sales, purchases, stock changes, and deliveries work offline and sync to Supabase when connected. It also tracks customer credit, supplier balances, cash counts, and profit, with role-based accounts and exportable reports.",
     tags: ["Next.js 16", "React 19", "Supabase", "PostgreSQL", "IndexedDB", "PWA / Service Worker"],
     number: "01",
-    url: "https://paddyverse.vercel.app/",
+    url: "https://paddyapp.vercel.app/",
     image: "/projects/paddyverse.svg",
     isLogo: true,
     imageBackground: "bg-[#153C2B]",
+    status: "Live Site"
+  },
+  {
+    title: "MalFit",
+    description:
+      "MalFit is a fitness coaching website for Coach Emman in Lapu-Lapu City. Visitors can book sessions, browse pricing and read testimonials, while the coach manages bookings and testimonials from a secure admin area with email alerts.",
+    tags: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS", "Supabase", "Resend"],
+    number: "02",
+    url: "https://malfit-one.vercel.app/",
+    image: "/projects/malfit.svg",
+    isLogo: true,
+    imageBackground: "bg-[#1c3253]",
     status: "Live Site"
   },
   {
@@ -44,19 +56,19 @@ const projects = [
     description:
       "Pickle Rating is a Philippine pickleball rankings app powered by confirmed singles and doubles matches. It features player profiles, regional leaderboards, club ratings, tournament brackets, and QR check-in.",
     tags: ["Next.js 16", "React 19", "TypeScript", "Supabase", "PostgreSQL"],
-    number: "02",
+    number: "03",
     url: "https://pickle-rating.vercel.app/",
     image: "/projects/pickle-rating.svg",
     isLogo: true,
     imageBackground: "bg-[#1b2a4a]",
-    status: "Live Site"
+    status: "In Development"
   },
   {
     title: "Nativecamp",
     description:
       "Native Camp is one of the best ESL online tutoring schools in Japan. Lessons are provided via a unique language platform developed by our company.",
     tags: ["Laravel", "MySQL", "Redis", "JavaScript"],
-    number: "03",
+    number: "04",
     url: "https://nativecamp.net",
     image: "/projects/nativecamp.png",
     isLogo: true,
