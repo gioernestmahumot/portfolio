@@ -66,7 +66,7 @@ export const projects: Project[] = [
     description:
       "Paddy is a local-first sales and inventory app for rice stores. Sales, purchases, stock changes, and deliveries work offline and sync to Supabase when connected. It also tracks customer credit, supplier balances, cash counts, and profit, with role-based accounts and exportable reports.",
     tags: ["Next.js 16", "React 19", "Supabase", "PostgreSQL", "IndexedDB", "PWA / Service Worker"],
-    url: "https://paddyapp.vercel.app/",
+    url: "https://paddyapp.vercel.app/welcome",
     logo: "/projects/paddyverse.svg"
   },
   {
