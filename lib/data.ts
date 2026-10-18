@@ -84,7 +84,7 @@ export const projects: Project[] = [
     description:
       "Paanyaya is an RSVP invitation platform for weddings, baptisms, work events and birthdays. Guests open one link, tap through a single-screen invitation card and reply, while hosts watch replies arrive live and export them to CSV.",
     tags: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS", "Supabase", "Upstash"],
-    url: "https://paanyaya.vercel.app/",
+    url: "https://paanyaya-site.vercel.app/",
     logo: "/projects/paanyaya.svg"
   },
   {
