@@ -51,7 +51,7 @@ export const services: Service[] = [
 ];
 
 export interface Project {
-  slug: "paddy" | "malfit" | "paanyaya" | "forgefit" | "nativecamp";
+  slug: "paddy" | "malfit" | "halikayo" | "forgefit" | "nativecamp";
   title: string;
   description: string;
   tags: string[];
@@ -79,13 +79,13 @@ export const projects: Project[] = [
     logo: "/projects/malfit.svg"
   },
   {
-    slug: "paanyaya",
-    title: "Paanyaya",
+    slug: "halikayo",
+    title: "Halikayo",
     description:
-      "Paanyaya is an RSVP invitation platform for weddings, baptisms, work events and birthdays. Guests open one link, tap through a single-screen invitation card and reply, while hosts watch replies arrive live and export them to CSV.",
+      "Halikayo is an RSVP invitation platform for weddings, baptisms, work events and birthdays. Guests open one link, tap through a single-screen invitation card and reply, while hosts watch replies arrive live and export them to CSV.",
     tags: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS", "Supabase", "Upstash"],
     url: "https://paanyaya-site.vercel.app/",
-    logo: "/projects/paanyaya.svg"
+    logo: "/projects/halikayo.svg"
   },
   {
     slug: "forgefit",

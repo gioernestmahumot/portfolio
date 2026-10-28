@@ -35,7 +35,7 @@ function MalfitPreview() {
   );
 }
 
-function PaanyayaPreview() {
+function HalikayoPreview() {
   return (
     <div className="flex h-full flex-col items-center justify-center bg-[#FFF5F7] px-6 text-center">
       <div className="text-[11px] font-semibold tracking-[0.1em] text-[#B83A58] uppercase">You&apos;re invited</div>
@@ -99,7 +99,7 @@ export default function MoreWork() {
                 className="group card-lift flex w-full flex-col rounded-card border border-line bg-card p-4 shadow-soft sm:p-5"
               >
                 <BrowserFrame>
-                  {p.slug === "malfit" ? <MalfitPreview /> : p.slug === "paanyaya" ? <PaanyayaPreview /> : p.slug === "forgefit" ? <ForgeFitPreview /> : <NativecampPreview logo={p.logo} />}
+                  {p.slug === "malfit" ? <MalfitPreview /> : p.slug === "halikayo" ? <HalikayoPreview /> : p.slug === "forgefit" ? <ForgeFitPreview /> : <NativecampPreview logo={p.logo} />}
                 </BrowserFrame>
                 <div className="mt-5 flex items-start justify-between gap-4">
                   <div className="min-w-0">
