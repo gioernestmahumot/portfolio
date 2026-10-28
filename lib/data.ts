@@ -51,7 +51,7 @@ export const services: Service[] = [
 ];
 
 export interface Project {
-  slug: "paddy" | "malfit" | "paanyaya" | "nativecamp";
+  slug: "paddy" | "malfit" | "paanyaya" | "forgefit" | "nativecamp";
   title: string;
   description: string;
   tags: string[];
@@ -86,6 +86,15 @@ export const projects: Project[] = [
     tags: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS", "Supabase", "Upstash"],
     url: "https://paanyaya-site.vercel.app/",
     logo: "/projects/paanyaya.svg"
+  },
+  {
+    slug: "forgefit",
+    title: "ForgeFit",
+    description:
+      "ForgeFit is an all-in-one fitness tracking and community platform covering strength, running, home workouts, sports, nutrition and progress. Free core tracking, a privacy-first social layer, and Premium features enforced in the database.",
+    tags: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL"],
+    url: "https://getforgefit.vercel.app",
+    logo: "/projects/forgefit.svg"
   },
   {
     slug: "nativecamp",
